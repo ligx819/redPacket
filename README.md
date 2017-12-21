@@ -1,1 +1,2 @@
 # redPacket
+一个简单的基于canvas的红包雨和雪花效果的demo
