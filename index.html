@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>喜迎新年，集福抽奖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <!-- styles -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+<body id="index">
+<div class="container" id="container">
+  <div class="top">
+    <img src="./images/fc_logo.png" class="logo" alt="">
+    <img src="./images/i_top.png" alt="" width="100%">
+  </div>
+  <div class="cont">
+    <img src="./images/fudai.png" alt="" width="100%">
+  </div>
+  <div class="foot">
+    <ul>
+      <li>当前剩余 <span class="chance">0</span> 次集福卡机会</li>
+      <li><a href="javascript:void (0);" id="getCard">我要集福卡</a></li>
+	   <!-- <li><a href="raffle.html">立即抽奖</a></li> -->
+    </ul>
+  </div>
+</div>
+
+<div class="backdrop" id="backdrop"></div>
+<div id="no_chance">
+  <div class="tips">
+    <p class="pull-left">当前福袋点击次数：<span id="click_count">0</span> 次</p>
+    <p class="pull-right"><span id="client_time">6</span>s</p>
+  </div>
+  <div id="progressbar">
+    <span>加载中...</span>
+    <div id='progress'></div>
+    <p></p>
+  </div>
+  <canvas width="100%" height="100%" class="snow"></canvas>
+  <canvas width="100%" height="100%" class="cpack"></canvas>
+</div>
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.cookie.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/modal.js"></script>
+<script src="js/redPacket.js"></script>
+<script src="js/base.js"></script>
+</body>
+</html>
